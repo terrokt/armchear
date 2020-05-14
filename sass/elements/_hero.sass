@@ -1,0 +1,62 @@
+.hero
+    background-image: url(../img/herobg.jpg)
+    background-position: center
+    background-color:#EBF2F7
+    background-blend-mode: multiply
+    &-content
+      padding-top: 65px
+      padding-bottom: 65px
+      display: flex
+      flex-direction: column
+      align-items: flex-end
+      &__title
+        color: #535353
+        max-width: 550px
+        text-align: right
+        margin: 0
+        margin-bottom: 10px
+        font-size: 35px
+      &__subtitle
+        color: #5892A6
+        margin-bottom: 65px
+    &-form
+      background-color: #ffffff
+      border: 0
+      border-radius: 15px
+      padding: 30px 40px 30px 40px
+      display: flex
+      flex-direction: column
+      align-items: center
+      &__number
+        +placeholder
+        margin-bottom: 15px
+        padding-top: 12px
+        padding-bottom: 12px
+        width: 220px
+        border: 1px solid #E8E8E8
+        border-radius: 25px
+        
+        text-align: center
+        outline: none
+
+      &__btn
+        padding-top: 12px
+        padding-bottom: 12px
+        width: 220px
+        border: none
+        color: white
+        background-color: #68B0C9
+        border-radius: 25px
+
+.form
+  &-title
+    margin: 0
+    +MuseoBold
+    font-size: 20px
+    color: #5892A6
+    margin-bottom: 10px
+  &-subtitle
+    +MuseoLight
+    font-size: 12px
+    margin-bottom: 15px
+
